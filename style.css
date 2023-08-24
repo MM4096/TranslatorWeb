@@ -3,6 +3,10 @@ body {
     font-family: Arial, serif;
 }
 
+.dontusestyling {
+    background-color: #ffffff;
+}
+
 .display {
     border-radius: 10px;
     padding: 50px;
