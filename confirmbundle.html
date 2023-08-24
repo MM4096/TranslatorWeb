@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Log in to your account</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <script type="module" src="Scripts/AddCredit.js"></script>
+
+        <div class="display">
+            <div id="loginDisplay">
+                <h2>Purchase Successful!</h2>
+                <h3>Please log in to your account</h3>
+                <p id="errorText"></p>
+                <input id="email" type="email" placeholder="Enter your email">
+                <br>
+                <input id="password" type="password" placeholder="Enter your password">
+                <br>
+                <button onclick="Login(60)">Log in</button>
+            </div>
+            <div id="completed" hidden>
+                <h2>Credit successfully added!</h2>
+                <h3>You can close this page now</h3>
+                <p>Added: 10 minutes credit (bundle)</p>
+            </div>
+        </div>
+    </body>
+</html>
